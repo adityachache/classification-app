@@ -13,7 +13,7 @@ with st.spinner('Model is being loaded..'):
     model=load_model()
 
 st.write("""
-         # Snake Classification
+         # Snake Species Classification
          """
          )
 st.markdown('This app can classify images of snakes from 5 different species given below ')

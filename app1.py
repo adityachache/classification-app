@@ -20,7 +20,7 @@ st.markdown('This app can classify images of snakes from 5 different species giv
 
 st.markdown(['Black Rat snake','Common Garter snake','DeKay Brown snake','Northern Watersnake','Western Diamondback rattlesnake'])
 
-st.text('The accuracy is only 63% on the validation set and that's why it can misclassify many pictures')
+st.text("The accuracy is only 63% on the validation set and that's why it can misclassify many pictures")
 st.text('The purpose of creating this was to learn how to deploy web applications in real life')
 
 file = st.file_uploader("Please upload an image", type=["jpg", "png"])
